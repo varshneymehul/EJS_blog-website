@@ -1,0 +1,29 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "description": "Blog website coded by Mehul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehul Varshney",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "lodash.kebabcase": "^4.1.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "blog",
+    "ejs",
+    "node",
+    "express",
+    "html",
+    "css",
+    "javascript"
+  ]
+}

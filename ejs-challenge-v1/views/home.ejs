@@ -1,0 +1,24 @@
+<%- include("partials/header"); %>
+
+<div style="text-align: right; margin-top: 20px;">
+  <a href="../compose">
+  <button class="btn-hover">
+    Compose
+    <i class="fas fa-pencil-alt"></i>
+  </button>
+  </a>
+</div>
+
+<br>
+<h1 class="blogHeadings">Home</h1>
+
+<p class="blogContent"> <%= homeStartingContent %> </p>
+
+<% blogPosts.forEach(blogPost => { %>
+<h2 class="blogHeadings"><%= blogPost.title %> </h2>
+<p class="blogContent"><%= ((blogPost.content).substring(0,100) + "....") %> </>
+  <a href="../posts/<%=(blogPost.link)%>">Read more!</a></p>
+<% }) %>
+
+
+<%- include("partials/footer"); %>
